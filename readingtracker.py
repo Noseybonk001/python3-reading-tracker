@@ -10,4 +10,5 @@ elif choice == "see read":
 	book_list_readable = open("booklist.txt", "r")
 	output = book_list_readable.read()
 	print(output)
-	
+else:
+	print("Error. Please Try Again")	
